@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.input-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form-row {
+  padding-bottom: 10px;
+}
+
+.input-form-label {
+  padding-right: 10px;
+}
+
+.form-button {
+  margin: 0px;
+  padding: 5px;
+}
+
+.form-button-add {
+  margin-left: 10px;
+}
+
+.form-button-clear {
+
+}
+
+.todo-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}

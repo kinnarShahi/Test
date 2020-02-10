@@ -1,0 +1,30 @@
+{
+  "name": "automation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chromedriver": "^2.30.1",
+    "cucumber": "^2.3.1",
+    "cucumber-html-report": "^0.6.0",
+    "cucumber-html-reporter": "^2.0.0",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^7.1.9",
+    "react-scripts": "1.0.7",
+    "regenerator-runtime": "^0.10.5",
+    "selenium-server": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "integration": "node_modules/.bin/nightwatch || true && npm run integration-report",
+    "integration-report": "node test/config/html-report.js"
+  }
+}

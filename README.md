@@ -1,2 +1,1 @@
-# sdet-tests
-The test package for O1 SDET candidates
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
